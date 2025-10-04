@@ -97,7 +97,7 @@ function updateCurrencyDisplay() {
       
       // Update icon based on currency type
       if (selectedCurrencyType === 'diamonds') {
-        iconElement.src = 'images/1000diamond.png';
+        iconElement.src = '1000diamond.png';
       } else {
         iconElement.src = 'https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/e/d/f/edfae9388da4cd8496b885a8a2df613372500d9c.png';
       }
@@ -470,11 +470,11 @@ function measurePerformance(label, fn) {
 // Preload critical images
 function preloadImages() {
   const criticalImages = [
-    'images/logo.png',
-    'images/100diamond.png',
-    'images/250diamond.png',
-    'images/1000diamond.png',
-    'images/5000diamond.PNG'
+    'logo.png',
+    '100diamond.png',
+    '250diamond.png',
+    '1000diamond.png',
+    '5000diamond.PNG'
   ];
   
   criticalImages.forEach(src => {
